@@ -15,32 +15,32 @@ body {
 }
 
 h1, h2, h3, h4, h5 {
-    font-weight: 600;
+    font-weight: 400;
     line-height: 1.2;
 }
 
 h1 {
-    font-size: 2.5rem;
+    font-size: 3.25rem;
     margin-bottom: 1.5rem;
 }
 
 h2 {
-    font-size: 2rem;
-    margin-bottom: 1.5rem;
+    font-size: 2.6rem;
+    margin-bottom: 0.75rem;
 }
 
 h3 {
-    font-size: 1.5rem;
-    margin: 2rem 0 1rem;
+    font-size: 1.95rem;
+    margin: 1.5rem 0 0.5rem;
 }
 
 h4 {
-    font-size: 1.25rem;
+    font-size: 1.625rem;
     margin-bottom: 0.5rem;
 }
 
 h5 {
-    font-size: 1.1rem;
+    font-size: 1.43rem;
     margin-bottom: 0.5rem;
 }
 
@@ -105,7 +105,7 @@ section .iframe-container {
 
 .description {
     margin: 2rem 0;
-    font-size: 1.05rem;
+    font-size: 1.365rem;
 }
 
 /* Carousel Styles */
@@ -144,9 +144,9 @@ section .iframe-container {
 }
 
 .caption {
-    margin-top: 1.5rem;
+    margin-top: 0.75rem;
     color: #e0e0e0;
-    font-size: 1rem;
+    font-size: 1.3rem;
 }
 
 .caption h4 {
@@ -183,7 +183,7 @@ section .iframe-container {
 /* Carousel Indicators */
 .carousel-indicators {
     text-align: center;
-    padding: 1rem 0;
+    padding: 0.5rem 0;
 }
 
 .indicator {
@@ -253,15 +253,15 @@ footer p {
     }
 
     h1 {
-        font-size: 2rem;
+        font-size: 2.6rem;
     }
 
     h2 {
-        font-size: 1.75rem;
+        font-size: 2.275rem;
     }
 
     h3 {
-        font-size: 1.35rem;
+        font-size: 1.755rem;
     }
 
     .carousel-btn {
@@ -293,11 +293,11 @@ footer p {
     }
 
     h1 {
-        font-size: 1.75rem;
+        font-size: 2.275rem;
     }
 
     h2 {
-        font-size: 1.5rem;
+        font-size: 1.95rem;
     }
 
     .carousel-btn {
