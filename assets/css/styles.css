@@ -233,7 +233,7 @@ section .iframe-container {
 
 /* Lightbox Modal */
 .lightbox-modal {
-    display: none;
+    display: none !important;
     position: fixed;
     z-index: 1000;
     left: 0;
@@ -241,12 +241,14 @@ section .iframe-container {
     width: 100%;
     height: 100%;
     background-color: rgba(0, 0, 0, 0.95);
+    visibility: hidden;
     opacity: 0;
-    transition: opacity 0.3s ease;
+    transition: opacity 0.3s ease, visibility 0.3s ease;
 }
 
 .lightbox-modal.active {
-    display: flex;
+    display: flex !important;
+    visibility: visible;
     opacity: 1;
     align-items: center;
     justify-content: center;
