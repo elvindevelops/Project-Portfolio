@@ -111,7 +111,7 @@ section .iframe-container {
 /* Carousel Styles */
 .carousel {
     position: relative;
-    margin: 2rem 0;
+    margin: 0.75rem 0;
     background-color: rgba(0, 0, 0, 0.3);
     border-radius: 8px;
     overflow: hidden;
@@ -183,7 +183,7 @@ section .iframe-container {
 /* Carousel Indicators */
 .carousel-indicators {
     text-align: center;
-    padding: 0.5rem 0;
+    padding: 0.25rem 0;
 }
 
 .indicator {
@@ -206,19 +206,20 @@ section .iframe-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 0;
-    margin: 2rem 0;
+    margin: 0.75rem 0;
 }
 
 .image-grid img {
     width: 100%;
-    height: 100%;
-    object-fit: cover;
+    height: 350px;
+    object-fit: contain;
     display: block;
+    background-color: rgba(0, 0, 0, 0.1);
 }
 
 /* Iframe Container */
 .iframe-container {
-    margin: 2rem 0;
+    margin: 0.75rem 0;
     background-color: rgba(0, 0, 0, 0.3);
     border-radius: 8px;
     overflow: hidden;
