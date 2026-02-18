@@ -1,0 +1,8 @@
+# OS and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Original HEIC files after conversion
+*.heic

@@ -1,0 +1,18 @@
+HEIC FILES TO CONVERT:
+The following HEIC files need to be converted to JPEG format:
+
+1. C:\Users\elvin\Documents\Project portfolio context\image 2.heic
+   → assets/images/arbutus/concept-2.jpg
+
+2. C:\Users\elvin\Documents\Project portfolio context\image 3.heic
+   → assets/images/arbutus/concept-3.jpg
+
+ONLINE CONVERSION TOOL (Recommended):
+1. Visit: https://heictojpg.com/
+2. Upload image 2.heic
+3. Download as concept-2.jpg
+4. Place in: C:\Users\elvin\Documents\Project-Portfolio\assets\images\arbutus\
+5. Repeat for image 3.heic as concept-3.jpg
+
+ALTERNATIVE: Use CloudConvert
+Visit: https://cloudconvert.com/heic-to-jpg

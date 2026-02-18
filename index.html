@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Elvin Shoolbraid's engineering project portfolio featuring Arbutus-1 music production device and Mobile Arm Support project">
+    <meta name="author" content="Elvin Shoolbraid">
+    <title>Elvin Shoolbraid - Project Portfolio</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <h4>Elvin Shoolbraid - Project Portfolio</h4>
+    </header>
+
+    <!-- Introduction Section -->
+    <section class="intro-section">
+        <h1>Project Portfolio</h1>
+        <p>This page hosts visual documentation for past and present, personal and professional projects. I hope to demonstrate hands-on experience in design and engineering, and a willingness to learn multidisciplinary skills.</p>
+    </section>
+
+    <!-- Portable Music Production Device Section -->
+    <section class="arbutus-section">
+        <h2>Portable Music Production Device</h2>
+
+        <!-- Carousel 1: Concept Designs -->
+        <div class="carousel" id="carousel-concept">
+            <div class="carousel-container">
+                <div class="carousel-slide">
+                    <img src="assets/images/arbutus/concept-1.jpg" alt="Early experimental concept design">
+                    <p class="caption">Early experimental concept design, not at all final</p>
+                </div>
+                <div class="carousel-slide">
+                    <img src="assets/images/arbutus/concept-2.jpg" alt="Experimental chassis concept design">
+                    <div class="caption">
+                        <h4>Experimental chassis concept design</h4>
+                        <p>Excessive complexity and assembly difficulty</p>
+                    </div>
+                </div>
+                <div class="carousel-slide">
+                    <img src="assets/images/arbutus/concept-3.jpg" alt="Unibody chassis concept design">
+                    <div class="caption">
+                        <h4>Unibody chassis concept design</h4>
+                        <p>Potentially better design for manufacturing and assembly complexity</p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-btn prev" aria-label="Previous slide">&lt;</button>
+            <button class="carousel-btn next" aria-label="Next slide">&gt;</button>
+            <div class="carousel-indicators"></div>
+        </div>
+
+        <p class="description">This project aims to create an affordable, repairable and user-reconfigurable all-in-one music composition product. It will probably be called the Arbutus-1, featuring a 2-octave keyboard, 4 rotary encoders, a small LCD display with a colour-coded user interface navigable through various command-keys, an integrated microphone, audio I/O jacks, and USB to charge the integrated batteries or transfer data with an external computer. The intended use-cases include synthesizing custom sounds from scratch or sampling audio to play on the keyboard, adding audio effects, sequencing or recording performances to audio, and arranging multiple audio tracks to create musical compositions.</p>
+
+        <h3>Block diagram and Schematic</h3>
+
+        <!-- Carousel 2: Diagrams -->
+        <div class="carousel" id="carousel-diagram">
+            <div class="carousel-container">
+                <div class="carousel-slide">
+                    <img src="assets/images/arbutus/diagram-1.jpg" alt="System-level Block Diagram">
+                    <p class="caption">System-level Block Diagram</p>
+                </div>
+                <div class="carousel-slide">
+                    <img src="assets/images/arbutus/diagram-2.jpg" alt="Compute Board schematic">
+                    <p class="caption">Compute Board schematic</p>
+                </div>
+                <div class="carousel-slide">
+                    <img src="assets/images/arbutus/diagram-3.jpg" alt="Audio Board schematic">
+                    <p class="caption">Audio Board schematic</p>
+                </div>
+                <div class="carousel-slide">
+                    <img src="assets/images/arbutus/diagram-4.jpg" alt="Encoder Board schematic">
+                    <p class="caption">Encoder Board schematic</p>
+                </div>
+                <div class="carousel-slide">
+                    <img src="assets/images/arbutus/diagram-5.jpg" alt="Keyboard Matrix schematic">
+                    <p class="caption">Keyboard Matrix schematic</p>
+                </div>
+            </div>
+            <button class="carousel-btn prev" aria-label="Previous slide">&lt;</button>
+            <button class="carousel-btn next" aria-label="Next slide">&gt;</button>
+            <div class="carousel-indicators"></div>
+        </div>
+
+        <p class="description">The system level block diagram shows a multi-board design, with the Raspberry Pi CM4 (Compute Module) receiving user input through a microcontroller IC (chip), translating digital to analog audio and vice versa through an audio codec IC, and running an LCD for UI. An off-the-shelf BMS (Battery Management System) board is used to manage 3 series 21700 Li-ion batteries. Various power regulator ICs help take power input from the USB port for charging, supply the digital 5V components, and separately supply the sensitive analog audio circuitry to avoid digital noise.</p>
+
+        <h3>Layout, Micro-soldering and Debugging</h3>
+
+        <!-- Carousel 3: Layout -->
+        <div class="carousel" id="carousel-layout">
+            <div class="carousel-container">
+                <div class="carousel-slide">
+                    <img src="assets/images/arbutus/layout-1.png" alt="Validation PCB layout">
+                    <p class="caption">Validation PCB layout</p>
+                </div>
+                <div class="carousel-slide">
+                    <img src="assets/images/arbutus/layout-2.png" alt="Keyboard and rotary encoder input section">
+                    <p class="caption">Keyboard and rotary encoder input section</p>
+                </div>
+                <div class="carousel-slide">
+                    <img src="assets/images/arbutus/layout-3.png" alt="Power stages and analog audio section">
+                    <p class="caption">Power stages and analog audio section</p>
+                </div>
+                <div class="carousel-slide">
+                    <img src="assets/images/arbutus/layout-4.jpg" alt="PCB with some missing components">
+                    <p class="caption">PCB with some missing components</p>
+                </div>
+                <div class="carousel-slide">
+                    <img src="assets/images/arbutus/layout-5.jpg" alt="0.1mm bodge-wire on the CM4 connector">
+                    <p class="caption">0.1mm bodge-wire on the CM4 connector</p>
+                </div>
+                <div class="carousel-slide">
+                    <img src="assets/images/arbutus/layout-6.jpg" alt="Provisional battery pack">
+                    <p class="caption">Provisional battery pack</p>
+                </div>
+            </div>
+            <button class="carousel-btn prev" aria-label="Previous slide">&lt;</button>
+            <button class="carousel-btn next" aria-label="Next slide">&gt;</button>
+            <div class="carousel-indicators"></div>
+        </div>
+
+        <p class="description">The electrical validation board was laid out on a single board for simplicity, and no respect was payed to component location or aesthetics. Most SMD components were soldered by JLCPCB, and soldering with a microscopic 150x zoom camera was used to add the dual 100-pin snap connectors for the CM4, and to make bodge-wire fixes as pictured above. The current status is that power rails have been debugged and verified to work, the CM4 boots and communicates through USB, and the audio codec chip is addressable. Programming the ATmega chip with an AVR ISP programmer is the next step. Once electrical validation is complete, a new board can be laid out to fit within the chassis size constraints.</p>
+    </section>
+
+    <!-- Mobile Arm Support Section -->
+    <section class="arm-support-section">
+        <h2>Mobile Arm Support Project</h2>
+
+        <div class="image-grid">
+            <img src="assets/images/arm-support/view-1.jpg" alt="Mobile Arm Support - View 1">
+            <img src="assets/images/arm-support/view-2.jpg" alt="Mobile Arm Support - View 2">
+            <img src="assets/images/arm-support/view-3.jpg" alt="Mobile Arm Support - View 3">
+        </div>
+
+        <p class="description">At my first Co-op term during the summer of 2024, I iteratively designed and prototyped a mobile arm support that uses mechanical tension and cables to assist people with limited arm strength. I used Fusion 360 and FDM 3D printing for the prototype. More information can be found in <a href="assets/documents/Mobile-Arm-Support-Project-Summer-2024.pdf" target="_blank">this document</a>. The 3D scan below is interactive; drag to rotate, scroll to zoom.</p>
+
+        <div class="iframe-container">
+            <iframe src="https://lumalabs.ai/embed/431611f4-7abb-4e69-83c9-bb7d136bd235?mode=sparkles&background=%23ffffff&color=%23000000&showTitle=true&loadBg=true&logoPosition=bottom-left&infoPosition=bottom-right&cinematicVideo=undefined&showMenu=false" class="responsive-iframe" width="100%" height="600" frameborder="0" title="Mobile Arm Support 3D Scan" style="border: none;"></iframe>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <h5>Elvin Shoolbraid - Project Portfolio</h5>
+        <p><strong>elvinshoolbraid@uvic.ca</strong></p>
+        <p><strong>©2026 by Elvin Shoolbraid.</strong></p>
+    </footer>
+
+    <script src="assets/js/carousel.js"></script>
+</body>
+</html>
