@@ -104,16 +104,16 @@
                     <p class="caption">Power stages and analog audio section</p>
                 </div>
                 <div class="carousel-slide">
-                    <img src="assets/images/arbutus/layout-4.jpg" alt="PCB with some missing components">
-                    <p class="caption">PCB with some missing components</p>
+                    <img src="assets/images/arbutus/layout-4.jpg" alt="Circuit board with some missing components">
+                    <p class="caption">Circuit board with some missing components</p>
                 </div>
                 <div class="carousel-slide">
                     <img src="assets/images/arbutus/layout-5.jpg" alt="0.1mm bodge-wire on the CM4 connector">
                     <p class="caption">0.1mm bodge-wire on the CM4 connector</p>
                 </div>
                 <div class="carousel-slide">
-                    <img src="assets/images/arbutus/layout-6.jpg" alt="Provisional battery pack">
-                    <p class="caption">Provisional battery pack</p>
+                    <img src="assets/images/arbutus/layout-6.jpg" alt="ISP programming bodge-wires for the ATMega chip">
+                    <p class="caption">ISP programming bodge-wires for the ATMega chip</p>
                 </div>
             </div>
             <button class="carousel-btn prev" aria-label="Previous slide">◀</button>
@@ -121,7 +121,7 @@
             <div class="carousel-indicators"></div>
         </div>
 
-        <p class="description">The electrical validation board was laid out on a single board for simplicity, and no respect was payed to component location or aesthetics. Most SMD components were soldered by JLCPCB, and soldering with a microscopic 150x zoom camera was used to add the dual 100-pin snap connectors for the CM4, and to make bodge-wire fixes as pictured above. The current status is that power rails have been debugged and verified to work, the CM4 boots and communicates through USB, and the audio codec chip is addressable. Programming the ATmega chip with an AVR ISP programmer is the next step. Once electrical validation is complete, a new board can be laid out to fit within the chassis size constraints.</p>
+        <p class="description">The electrical validation board was laid out on a single board for simplicity, and no respect was payed to component location or aesthetics. Most SMD components were soldered by JLCPCB, and soldering with a microscopic 150x zoom camera was used to add the dual 100-pin snap connectors for the CM4, and to make bodge-wire fixes as pictured above. The current status is that power rails have been debugged and verified to work, the CM4 boots and communicates through USB, the audio codec chip can record and output, and the ATMega microcontroller IC has been flashed with firmware that scans the keyboard matrix and rotary encoder inputs. Once the LCD screen is made to work and electrical validation is complete, a new multi-board design can be laid out to fit within the chassis size constraints.</p>
     </section>
 
     <!-- Mobile Arm Support Section -->
